@@ -42,14 +42,6 @@ const NEW_PROJECT_SERVICE_KEY = process.env.NEW_PROJECT_SERVICE_KEY;
 
     console.log(`Copiando ... ${objectData.name}`)
 
-    if (objectData.bucket_id !== 'checklist') {
-
-      console.log('Skip...')
-
-      continue
-
-    }
-
     try {
 
       const { data, error: downloadObjectError } = await oldSupabaseClient.storage
