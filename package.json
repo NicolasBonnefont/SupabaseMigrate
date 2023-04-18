@@ -1,0 +1,21 @@
+{
+  "name": "supabasemigrate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx migrate.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^1.35.7",
+    "dotenv": "^16.0.3",
+    "tsx": "^3.12.6"
+  }
+}
